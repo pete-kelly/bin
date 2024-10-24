@@ -1,2 +1,2 @@
 # bin
-Small programs to make life easier
+Small scripts
