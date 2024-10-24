@@ -1,2 +1,2 @@
 # bin
-Small scripts
+Small scripts for small problems.
