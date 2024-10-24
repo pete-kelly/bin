@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+
+"""
+Adds an event to Busycal from the command line via a URL handler.
+
+The syntax used right now is, for example:
+    'open busycalevent://new/Meeting%20with%20Joe%20June%207%20at%203pm%20%2FWork'
+which might not be the best way.
+
+Info on this page:
+https://support.busymac.com/help/70621-url-handler
+"""
+
+import subprocess
+prefix = "busycalevent://new/"
+event = input('Enter an appointment: ')
+event_prepared = event.replace(' ','%20')
+url = prefix + event_prepared 
+_ = subprocess.run(["open", url])

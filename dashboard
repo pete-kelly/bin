@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+# weather
+# todos
+# quotes
+# sports events that i can watch
+# dirona-type maintenance items
+# mcn inventory
+# birthdays/anniversaries
+# bills
+
+clear
+echo "=========================================="
+echo "Dashboard for $(date +"%A, %B %d, %Y")"
+echo "------------------------------------------"
+echo "Tasks:"
+
+bash ~/.calendar/daily 
+echo ""
+echo "------------------------------------------"
+echo "Bills:"
+
+calendar -A 30 
+echo ""
+echo "------------------------------------------"
+echo "Birthdays and anniversaries:"
+
+calendar -A 30 -f ~/.calendar/birthdays
+echo ""
+echo "------------------------------------------"
+echo -n 'Newsboat: ' ; newsboat -x print-unread 
+echo "------------------------------------------"
+
+task
