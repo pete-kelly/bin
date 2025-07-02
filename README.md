@@ -3,6 +3,6 @@ Small scripts to solve small problems.
 
 | | | |
 | --- | --- | --- |
-| [**busycal**](https://github.com/pete-kelly/bin/blob/main/busycal) | ![Shell](https://img.shields.io/badge/Shell-4EAA25?&style=plastic&logo=gnu-bash&logoColor=white)  |  Add an event to Busycal from the command line |
+| [**busycal**](https://github.com/pete-kelly/bin/blob/main/busycal) | ![Shell](https://img.shields.io/badge/Shell-4EAA25?&style=plastic&logo=gnu-bash&logoColor=white)  |  Add an event to [Busycal](https://busymac.com/) from the command line |
 | [**dashboard**](https://github.com/pete-kelly/bin/blob/main/dashboard) | ![Shell](https://img.shields.io/badge/Shell-4EAA25?&style=plastic&logo=gnu-bash&logoColor=white)  |  Quick display of upcoming events |
 | [**todraft**](https://github.com/pete-kelly/bin/blob/main/todraft) | ![Shell](https://img.shields.io/badge/Shell-4EAA25?&style=plastic&logo=gnu-bash&logoColor=white)  |  Create a [Drafts app](https://getdrafts.com/) draft from the command line |
