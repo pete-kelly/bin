@@ -1,2 +1,7 @@
 # bin
-Small scripts for small problems.
+Small scripts to solve small problems.
+
+|---|---|---|
+| test | foo | bar |
+|---|---|---|
+
